@@ -1,0 +1,27 @@
+{
+    "name": "bluerocktel/atera-api-php-client",
+    "description": "A light PHP client for the Atera CRM API",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BlueRockTEL\\AteraClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas",
+            "email": "thomas@bluerocktel.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "nesbot/carbon": "^2.68",
+        "illuminate/collections": ">=9.0",
+        "saloonphp/saloon": "^3.0",
+        "saloonphp/rate-limit-plugin": "^2.0",
+        "saloonphp/pagination-plugin": "^2.0"
+    },
+    "require-dev": {
+        "spatie/ray": "^1.37"
+    }
+}
